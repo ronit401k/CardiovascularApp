@@ -1,0 +1,27 @@
+body {
+  background-color:  #00ff62;
+}
+h1{
+  color: white;
+  font-size: 46px;
+  text-align: right;
+}
+h2 {
+  color: #897458;
+}
+h2#My-hobbies{
+  color: black;
+}
+
+li.colored-list{
+  color: #ff9500;
+}
+p{
+  padding-left: 50px;
+  border: 20px;
+  margin: 30px; 
+}
+img{
+  width: 340px;
+  height: 340px;
+}
