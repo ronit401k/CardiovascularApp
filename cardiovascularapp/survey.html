@@ -6,11 +6,16 @@
     <script src="script.js"></script>
   </head>
 <body>
+<a href="app.html">Cardiovascular Disease</a>
 <h2>Survey</h2>
 <form>
   <label for="age-input">How old are you</label>
   <br>
   <input type="number" min="0" max="122" id="age-input">           
+  <br>
+  <label for="BMI-input">What is your BMI (weight/height)</label>
+  <br>
+  <input type="number" min="0" max="50" id="BMI-input">           
   <br>
   <label for="race-input">What race are you</label>
   <br>
@@ -36,7 +41,13 @@
   <br>
   <input type="radio" id="No" name="diabetic status" value="No"> <label for="No">No</label>
   <br>
-  <button id="survey-submit">submit</button>
+  <label for="smoker status-input">Are you a current smoker</label>
+  <br>
+  <input type="radio" id="Yes" name="smoker status" value="Yes"> <label for="Yes">Yes</label>
+  <br>
+  <input type="radio" id="No" name="smoker status" value="No"> <label for="No">No</label>
+  <br>
+  <button id="survey-submit">submit and predict</button>
 </form>
 </body>
 </html>
